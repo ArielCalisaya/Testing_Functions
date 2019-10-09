@@ -1,0 +1,63 @@
+.root-user{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 1em;
+}
+.num{
+  font-size: 16px;
+  margin-right: 3em;
+  margin-left: 0.25em;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+.comment-user {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+
+}
+.avatar{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.displayName{
+  color: black;
+  font-weight: bold;
+  padding: 0;
+}
+.username{
+  color: #aaa;
+}
+.date{
+  color: #aaa;
+  padding: 0.5em;
+  font-size: 18px;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-start;
+  color: #aaa;
+
+}
+.icon{
+  margin-right: 3em;
+}
+
+.icon-retweet{
+  color: #20883f;
+}
+.icon-favorite{
+  color: yellow;
+}
